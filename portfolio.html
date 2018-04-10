@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Sarah Martinez Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <linke rel="images" href="Bootstrap-Portfolio/images">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
 </head>
 
     <body>
@@ -16,8 +18,8 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav justify-content-end">
+                        <div class="collapse navbar-collapse justify-content-sm-end" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
                                 <a class="nav-item nav-link" href="index.html">About</a>
                                 <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
                                 <a class="nav-item nav-link" href="contact.html">Contact</a>
@@ -35,42 +37,47 @@
                 </div>
             </div>
             <!-- <br> -->
-            <div class="row">
+            <!-- do these as banners on top of photos, don't use cards -->
+            <div class="row" style="clear:both">
                 <div class="col-sm-6">
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="https://www.ivanexpert.com/blog/wp-content/uploads/2010/07/apple-command-key.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <a class="card-text" href="#">Front-end</a>
-                        </div>
+
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="file:///Users/sarahmartinez/Desktop/coding_bootcamp/week_two/homework_two/Bootstrap-Portfolio/images/blogging.jpg" alt="Card image">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Front-end</h5>
+                            </div>
                     </div>
                 </div>
-                <!-- RESIZE MAP WIDGET PHOTO -->
+                
                 <div class="col-sm-6">
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="https://icdn4.digitaltrends.com/image/google-maps-19-720x720.jpg?ver=1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <a class="card-text" href="#">Map Widget</a>
+                        <div class="card bg-dark text-white">
+                            <img class="card-img" src="file:///Users/sarahmartinez/Desktop/coding_bootcamp/week_two/homework_two/Bootstrap-Portfolio/images/map.jpg" alt="Card image">
+                            <div class="card-img-overlay">
+                                  <h5 class="card-title">Map Widget</h5>
+                            </div>
                         </div>
-                    </div>
                 </div>
             </div>
-                <br>
-            <div class="row">
+            <div style="clear: both;"></div>
+            <br><br>
+            <div class="row" style="clear:both">
                 <div class="col-sm-6">
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="http://www.techjini.com/wp-content/uploads/2017/01/Analytics.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <a class="card-text" href="#">Back-End</a>
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="file:///Users/sarahmartinez/Desktop/coding_bootcamp/week_two/homework_two/Bootstrap-Portfolio/images/mobileapp.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Back-end</h5>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-6">
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="http://majorhifi.com/wp-content/uploads/Apple-Over-Ear-Headphones.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <a class="card-text" href="#">Trivia Game</a>
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="file:///Users/sarahmartinez/Desktop/coding_bootcamp/week_two/homework_two/Bootstrap-Portfolio/images/headphones.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Trivia Game</h5>
                         </div>
                     </div>
+                    <div style="clear: both;"></div>
                 </div>
             </div>
 
@@ -78,7 +85,7 @@
 
             <div class="row">
                 <div class="col-sm-12">
-                    <nav class="navbar navbar-light bg-light">
+                    <nav class="navbar navbar-light bg-light justify-content-sm-center">
                         <p style="text-center">Copyright</p>
                     </nav>
                 </div>
